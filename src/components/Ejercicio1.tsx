@@ -64,7 +64,7 @@ export class PatoMigratorio extends Pato {
   }
 
 	// Sobrescribe el método saludar de la clase base
-	public hacerSonido(): void {
+	public saludar(): void {
 		console.log("¡Cuacker cuacker!");
 	}
 }
